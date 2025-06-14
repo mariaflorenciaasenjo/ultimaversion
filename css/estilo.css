@@ -1,0 +1,163 @@
+*{
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+h1{
+    color: #FD0006;
+    text-align: center;
+    background-color: #C3F35F;
+    width: 100%;
+}
+h2{
+    color: #0ACF00;
+}
+h2{
+    color:#067D00 ;
+}
+body{
+    background-color: #46B4B0;
+}
+
+thead {
+    background-color: #C3F35F;
+    border: 10px solid black;
+}
+table td,tr {
+    border: 1px solid black;
+    text-align: center;
+}
+table{
+    width: 50%;
+}
+form{
+    background-color: #C3F35F;
+    
+}
+li{
+    background-color: #46B4B0;
+    margin: 20px;
+    padding: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #C3F35F;
+
+}
+
+.encabezado{
+    background-color: #46B4B0;
+    margin: 20px;
+    width: 70%;
+    justify-content: center;
+
+}
+.menu{
+    background-color: #C3F35F;
+    margin: 20px;
+    list-style-type: none;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    
+
+}
+.imagen{
+    background-color: #C3F35F;
+    margin: 0px;
+    width: 50%;
+    text-align: center;
+    font-size: smaller;
+    font-style: oblique;
+}
+
+
+ul.navegacion{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn_menu{
+    color: #C3F35F;
+    padding: 15px;
+}
+.btn_menu a{
+    color: #46B4B0;
+    text-decoration: none;
+}
+
+ul.navegacion.show {
+    display: flex;
+    
+}
+
+ul.navegacion li {
+    list-style: none;
+    margin: 0px 0px;
+    padding: 15px 20px;
+}
+ul.navegacion li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.navegacion li:hover {
+    background-color: red;
+}
+
+.capcha {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    background: #1abc9c;
+}
+  
+.result {
+    background: white;
+    width: 100px;
+    text-align: center;
+}
+.etica, .antropologia, .gnoseologia{
+    margin: 30px;
+}
+
+
+
+    
+    @media screen and (min-width: 660px){
+    p{
+        width: 90%;
+    }
+
+    .contenedor{
+        flex-direction: row;
+    }
+
+    menu{
+        display: block;
+    }
+    
+    .btn_menu{
+        display: none;
+    }
+    
+
+    ul.navegacion {
+        display: flex;
+        flex-direction: column;
+    }
+    }
+    form{
+        width: 50%;
+    }
+    
+
