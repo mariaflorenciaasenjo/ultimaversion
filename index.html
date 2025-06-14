@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Filosofía</title>
+</head>
+<body>
+
+    <form action="" id="form" class="form-registro">
+        <p>Registrese</p>
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="text" name="apellido" placeholder="Apellido" required>
+        <input type="email" name="email" placeholder="mail@servidor.com" required>
+        
+        <div class="introducirCapcha">
+            <div class="result"></div>
+            <button id="btn-capcha">CAPCHA</button>
+            <input type="text" name="capchausuario" required>
+            <p id="capchabien"></p>
+            <p id="capchamal"></p>
+        </div>
+
+        <button id="enviarformu">ENVIAR</button>
+    </form>
+    
+
+    <header class="encabezado">
+            <h1>Filosofía</h1>
+    </header>
+    
+    <section class="contenedor">
+        <button class="btn_menu"><a>MENÚ</a></button>
+        <nav class="menu">
+            <ul class="navegacion">
+                <li><a href="definicion.html">Definición</a></li>
+                <li><a href="utilidad.html">Utilidad</a></li>
+                <li><a href="ramas.html">Ramas</a></li>
+                <li><a href="filosofos.html">Filósofos</a></li>
+            </ul>
+        </nav>
+        
+
+        <figure class="imagen">
+            <img src="images/EscueladeAtenas.jpg" alt="Detalle de la escuela de Atenas, pintura de Rafael" srcset="">
+            <figcaption>Detalle de la escuela de Atenas, pintura de Rafael.</figcaption>
+        </figure>       
+        
+    </section>
+    <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
