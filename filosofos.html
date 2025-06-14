@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Filósofos</title>
+</head>
+<body>
+    <section class="contenedor">
+        <button class="btn_menu"><a>MENÚ</a></button>
+        <nav class="menu">
+            <ul class="navegacion">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="definicion.html">Definición</a></li>
+                <li><a href="utilidad.html">Utilidad</a></li>
+                <li><a href="ramas.html">Ramas</a></li>
+            </ul>
+        </nav>
+    </section> 
+    <h1>Filosofos en el mundo</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Pais</th>
+                <th>Id</th>
+            </tr>
+        </thead>
+        <tbody id="table">
+        </tbody>
+
+        
+    </table> 
+    <p>Ingrese datos de filosofos que no estan en la lista</p>
+    <form>
+        <p>Nombre: <input type="text" id="nombrenuevo"></p>
+        <p>Pais: <input type="text" id="paisnuevo"></p>
+        <p><input type="button" id="agregar" value="Agregar"></p>
+    </form>
+    <p>Ingrese el id que desea borrar</p>
+    <form>
+        <input type="number" name="idborrar" id="idborrar">
+        <p><input type="button" id="eliminar" value="Borrar"></p>
+    </form>
+    <p>Ingrese el id que desea editar</p>
+    <form>
+        <p>Id: <input type="number" id="ideditar"></p>
+        <p>Nombre: <input type="text" id="nombreeditado"></p>
+        <p>Pais: <input type="text" id="paiseditado"></p>
+        <input type="button" id="editar" value="Editar">
+    </form>
+<script src="js/obtenerinfo.js"></script>   
+</body>
+</html>
